@@ -5,7 +5,7 @@ redacted by seeyira
 first we have to add a loadstring for library usage
 
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Seeyyyira/seyyiro4ka/main/Ahegao.lua"))()
 ```
 
 
