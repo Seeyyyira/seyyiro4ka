@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://media.tenor.com/ojPOglrv2AEAAAAM/ahegao.gif" alt="Ahegao" width="726">
+    <img src="https://media.tenor.com/ojPOglrv2AEAAAAM/ahegao.gif" alt="Ahegao" width="500">
 </p>
 # Ahegao by Razy.#0139
 redacted by seeyira 
