@@ -1,5 +1,8 @@
-# Ocerium_Project Made by SALFIIN#2470
-redacted by seeyira
+<p align="center">
+    <img src="https://media.tenor.com/ojPOglrv2AEAAAAM/ahegao.gif" alt="Ahegao" width="726">
+</p>
+# Ahegao by Razy.#0139
+redacted by seeyira 
 
 # Library core
 first we have to add a loadstring for library usage
