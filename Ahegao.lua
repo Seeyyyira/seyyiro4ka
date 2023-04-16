@@ -45,6 +45,7 @@ function UILibrary.Main(PrjName,HideKey)
 	Main.Name = "Main"
 	Main.Parent = Library
 	Main.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+	Main.BackgroundTransparency = 0.250
 	Main.BorderSizePixel = 0
 	Main.ClipsDescendants = true
 	Main.Position = UDim2.new(0.25, 0, 0.25, 0)
@@ -53,14 +54,14 @@ function UILibrary.Main(PrjName,HideKey)
 
 	UIStroke.Parent = Main
 	UIStroke.Color = Color3.fromRGB(255, 255, 255)
-	UIStroke.Thickness = 3.000
+	UIStroke.Thickness = 2.000
 
-	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(148, 0, 2)), ColorSequenceKeypoint.new(0.18, Color3.fromRGB(255, 0, 242)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(17, 0, 255)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(2, 255, 255)), ColorSequenceKeypoint.new(0.68, Color3.fromRGB(9, 171, 0)), ColorSequenceKeypoint.new(0.83, Color3.fromRGB(255, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 1, 1))}
+	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(33, 33, 33)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(122, 122, 240)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(69, 72, 255))}
 	UIGradient.Parent = UIStroke
 
 	UIGradient_2.Parent = Main
 
-	local function OAQW_script()
+	local function rainbow()
     	local script = Instance.new('LocalScript', UIGradient)
 
     	local TweenService = game:GetService("TweenService")
@@ -68,7 +69,7 @@ function UILibrary.Main(PrjName,HideKey)
     	local tween = TweenService:Create(script.Parent, tweeninfo, {Rotation = 360})
     	tween:Play()
 	end
-	coroutine.wrap(OAQW_script)()
+	coroutine.wrap(rainbow)()
 
 	HideMain.Name = "Main"
 	HideMain.Parent = Main
